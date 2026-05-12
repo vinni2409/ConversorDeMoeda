@@ -17,7 +17,7 @@ public class Moeda {
         return sigla;
     }
 
-    public Float getTaxaParaReal() {
+    public Double getTaxaParaReal() {
         return taxaParaReal;
     }
 }
