@@ -1,9 +1,9 @@
 public class Moeda {
     private String name;
     private String sigla;
-    private Float taxaParaReal;
+    private double taxaParaReal;
 
-    public Moeda(String name, String sigla, Float taxaParaReal){
+    public Moeda(String name, String sigla, double taxaParaReal){
         this.name = name;
         this.sigla = sigla;
         this.taxaParaReal = taxaParaReal;
